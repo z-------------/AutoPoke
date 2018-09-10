@@ -1,0 +1,32 @@
+@keyframes buttonFade {
+  from { opacity: 0.2 }
+  to { opacity: 1 }
+}
+
+#autopoke_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5em;
+}
+
+#autopoke_container label {
+  display: flex;
+  align-items: center;
+}
+
+#autopoke_pokeall {
+  -webkit-appearance: none;
+  padding: 6px 9px;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  background-color: #4267b2;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#autopoke_intervalinput {
+  max-width: 50px;
+  height: 1.5em;
+}

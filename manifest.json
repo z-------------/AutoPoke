@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "AutoPoke",
+  "description": "Automatically return Facebook pokes as soon as they arrive",
+  "version": "0.5.1",
+  "author": "Zachary Guard",
+  "permissions": [ "storage" ],
+  "content_scripts": [{
+    "css": [ "autopoke.css" ],
+    "js": [ "autopoke.js" ],
+    "matches": [ "*://www.facebook.com/*" ]
+  }]
+}
